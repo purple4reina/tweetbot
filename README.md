@@ -49,8 +49,18 @@ tweet(specific=None)  finds a random tweet text from the tweetlines.txt file, if
 
 write_follower_count()  checks to see if the follower count has been written to followers.txt yet today, if not appwrites the number of followers of the bot to the file
 
+get_amazon_link()  returns a link to a random book on amazon, requires amazon integration, see below
+
 
 ------------------------
 also included:
 
 parts_of_speech_word_files  files containing large lists of words of all parts of speech
+
+
+-------------------------
+Amazon Integration
+
+In order to integration with Amazon and use the above get_amazon_link method, these packages are required which can be installed using pip: amazon-product-api, lxml
+
+See http://python-amazon-product-api.readthedocs.org/en/latest/basic-usage.html for basic usage and configuration of the amazon-product-api module.
