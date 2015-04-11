@@ -19,6 +19,7 @@ from follow import *
 from follow_by_RT import *
 from auto_reply import *
 from reply_to_tweet import *
+from get_amazon_link import *
 
 
 # define the tuple of twitter keys from saved file
